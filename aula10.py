@@ -1,0 +1,17 @@
+carro.siga()
+if carro.esquerda():
+    carro.siga()
+    carro.direita()
+    carro.siga()
+    carro.direita()
+    carro.esquerda()
+    carro.siga()
+    carro.direita()
+    carro.siga()
+else:
+    carro.siga()
+    carro.esquerda()
+    carro.siga()
+    carro.esquerda()
+    carro.siga()
+carro.pare()
